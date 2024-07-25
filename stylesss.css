@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: greenyellow;
+      
+}
+
+.header {
+    background-color: #333; /* Warna latar belakang header */
+    color: #fff; /* Warna teks */
+    padding: 10px 0; /* Padding atas dan bawah */
+    text-align: center; /* Teks terpusat */
+    margin-bottom: 20px;
+}
+.header-inner {
+    max-width: 960px; /* Lebar maksimum header */
+    margin: 0 auto; /* Memusatkan header di tengah */
+    display: flex; /* Menggunakan flexbox untuk layout */
+    justify-content: space-between; /* Memisahkan judul dan navigasi */
+    align-items: center; /* Memusatkan vertikal */
+}
+
+.header-title {
+    font-size: 24px; /* Ukuran font judul header */
+    margin: 0; /* Menghilangkan margin default */
+}
+
+.header-nav ul {
+    list-style-type: none; /* Menghilangkan bullets */
+    padding: 0; /* Menghilangkan padding default */
+    margin: 0; /* Menghilangkan margin default */
+}
+
+.header-nav ul li {
+    display: inline; /* Menampilkan menu secara horizontal */
+    margin-left: 20px; /* Jarak antar menu */
+}
+
+.header-nav ul li:first-child {
+    margin-left: 0; /* Menghilangkan margin kiri pada menu pertama */
+}
+
+.header-nav ul li a {
+    color: #fff; /* Warna teks menu */
+    text-decoration: none; /* Menghilangkan underline */
+    font-weight: bold; /* Ketebalan font */
+    font-size: 16px; /* Ukuran font */
+}
+
+.header-nav ul li a:hover {
+    text-decoration: underline; /* Underline saat hover */
+}
+.slideshow-container {
+    position: center;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-60%);
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+}
+
+.next {
+    right: 0;
+}
+
+.prev {
+    left: 0;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    cursor: pointer;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.section {
+    padding: 40px 0;
+    background-color:gray;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section p {
+    text-align: center;
+}
+/* Reset default anchor styles */
+a {
+  display: inline-block; /* Membuat tautan menjadi blok */
+  padding: 10px 20px;
+  font-size: 16px;
+  text-decoration: none; /* Menghilangkan underline */
+  background-color: #007bff; /* Warna latar belakang */
+  color: white; /* Warna teks */
+  border-radius: 4px; /* Sudut bulat pada tombol */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Bayangan untuk efek elevasi */
+}
+
+/* Hover effect */
+a:hover {
+  background-color: #0056b3; /* Warna latar belakang saat dihover */
+}
+
+/* Fokus effect */
+a:focus {
+  outline: none; /* Hilangkan outline saat fokus */
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.4); /* Efek shadow saat fokus */
+}
+
+/* Active effect */
+a:active {
+  transform: translateY(1px); /* Efek ketika tombol ditekan */
+}
+.header style{
+  margin-bottom: 20px;
+  color: black;
+}
